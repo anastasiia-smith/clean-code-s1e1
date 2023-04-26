@@ -35,7 +35,6 @@ body {
 }
 
 .task {
-  width: 56%;
   display: flex;
   flex-grow: 1;
 }
@@ -105,7 +104,7 @@ label[for="new-task"] {
 }
 
 input#new-task {
-  width: 318px;
+  width: 100%;
 }
 
 /* Task list */
@@ -165,4 +164,8 @@ ul li.editMode input[type=text] {
 
 ul li.editMode label {
   display: none;
+}
+
+.section__task {
+  padding: 25px 0;
 }
